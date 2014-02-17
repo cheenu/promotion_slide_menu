@@ -20,7 +20,7 @@ Motion::Project::App.setup do |app|
   # https://github.com/HipByte/motion-cocoapods/issues/38
   #
   app.pods do
-    pod 'PKRevealController', '2.0.1', :git => "https://github.com/cheenu/PKRevealController.git"
+    pod 'PKRevealController', :git => "https://github.com/cheenu/PKRevealController.git"
   end
 
 end
